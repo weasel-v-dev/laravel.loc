@@ -8,6 +8,7 @@ use App\Models\Company;
 use App\Models\User;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class ImportUsersCommand extends Command
 {
@@ -83,6 +84,7 @@ class ImportUsersCommand extends Command
                      'id' => $userAPI['id'],
                      'name' => $userAPI['name'],
                      'email' => $userAPI['email'],
+                     'password' => Hash::make('12345678'),
                      'username' => $userAPI['username'],
                      'phone' => $userAPI['phone'],
                      'website' => $userAPI['website'],
