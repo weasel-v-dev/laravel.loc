@@ -84,7 +84,7 @@ class ImportUsersCommand extends Command
                      'id' => $userAPI['id'],
                      'name' => $userAPI['name'],
                      'email' => $userAPI['email'],
-                     'password' => Hash::make('12345678'),
+                     'password' => Hash::make('Zxcvbnm1'),
                      'username' => $userAPI['username'],
                      'phone' => $userAPI['phone'],
                      'website' => $userAPI['website'],
