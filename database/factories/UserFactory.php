@@ -12,14 +12,31 @@ class UserFactory extends Factory
      *
      * @return array
      */
+    private static $primaryKey = 1;
+
     public function definition()
     {
         return [
             'name' => $this->faker->name(),
-            'email' => $this->faker->unique()->safeEmail(),
-            'email_verified_at' => now(),
-            'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-            'remember_token' => Str::random(10),
+            'username' => $this->faker->unique()->userName(),
+            'email' => $this->faker->unique()->email(),
+            'address' => [
+                'street' => $this->faker->streetAddress(),
+                'suite' => $this->faker->randomLetter(),
+                'city' => $this->faker->city(),
+                'zipcode' => $this->faker->postcode,
+                'geo' => [
+                    'lat' => $this->faker->randomFloat(3, 1, 1000),
+                    'lng' => $this->faker->randomFloat(3, 1, 1000)
+                ]
+            ],
+            'phone' => $this->faker->phoneNumber(),
+            'website' => $this->faker->name,
+            'company' => [
+                'name' => $this->faker->company(),
+                'catchPhrase' =>  $this->faker->text(),
+                'bs' => $this->faker->randomLetter(),
+            ]
         ];
     }
 

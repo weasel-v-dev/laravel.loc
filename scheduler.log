@@ -1,0 +1,676 @@
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$PhWiXcZ2zCLneoluUlLjde3Kg9WGZc8ZcR0BJQhNBcP61ZfFh1joO, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:09:02, 2023-06-13 11:09:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$30NiPQ5pEm44DdrKMugyBese6AlF90fKQNncUh6HpipfkZDTz6gsa, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:10:02, 2023-06-13 11:10:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$Jr1PSZyUpmnxyDXjFPVFj.3XZb2lUq0ZgcPj03YBugQ2uxHC2FPpm, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:11:02, 2023-06-13 11:11:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$iJV3y0bzikRTra9JvCkspOA9F.8gs2l1c1WB8QU2k9c/3tM9qsPam, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:12:02, 2023-06-13 11:12:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$fSQ9hDAsppIRCee80bhCsui.r8z/rZ66eCdUFBo3huYBqxBuKCprC, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:13:02, 2023-06-13 11:13:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$s0z7K0fQaix5nyk5h2ToUuqgodYK74tEruLBayxbENcp0dAotvSFO, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:14:02, 2023-06-13 11:14:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$YqEguDtYsUx6pBJ/OAO3AuJB4wkR1JMWuxqKVE0x39ojyYTYX3Q/S, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:15:02, 2023-06-13 11:15:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$/C1RXtrv8uc2762Va1I8Euc37Vqa3WwtkEUZCE3UEUC.pSl8TvFPO, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:16:02, 2023-06-13 11:16:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$WAnAnqDFVkCxaoqKWCva4e.yXEenezZMCykxW5A7sJWUC5IauzHU., Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:17:02, 2023-06-13 11:17:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$B.3cVmmUk5jPtLnB3lbtt.9CyvaiXghF/FH7NgsBftK92dq/SH2TK, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:18:02, 2023-06-13 11:18:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$kXroFpZ9bCkI..INNdfruuarMUyTaW2v4j/o/2kwJnENMfsn9LB5y, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:19:02, 2023-06-13 11:19:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+
+   ErrorException 
+
+  Undefined offset: 0
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Collections\Collection.php:1641
+    1637▕      */
+    1638▕     #[\ReturnTypeWillChange]
+    1639▕     public function offsetGet($key)
+    1640▕     {
+  ➜ 1641▕         return $this->items[$key];
+    1642▕     }
+    1643▕ 
+    1644▕     /**
+    1645▕      * Set the item at a given offset.
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Collections\Collection.php:1641
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleError()
+
+  2   C:\OpenServer\domains\laravel.loc\app\Services\ImportUsersService.php:26
+      Illuminate\Support\Collection::offsetGet()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$vvXhiepb/5JvwBkHOcsuie4PihE/lPUTaatfoORyLpjCGdhv.5Jn2, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:21:02, 2023-06-13 11:21:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$WGwhfyWLEGLIW3kB.3K9befcxK0/iyuk.r1NMAfnOC39DvJiSBeq., Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:22:02, 2023-06-13 11:22:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$2MzAU4vKJ66FTSjMP3cDaux4vlQ6Fs3a0FmDx5pLQN0dhs4wpHJOy, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:23:02, 2023-06-13 11:23:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$nqUvD/hahzaSKEeNoMhSIOGSbm9QXdgSIUg8c7y3i4A0Id/XlEfYS, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:24:02, 2023-06-13 11:24:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$/q1ta0VvHQR6t2UetVcV0u1qRarsGalWGwmmvME/ZTy4EAO6aMp/., Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:25:02, 2023-06-13 11:25:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$TXhsiEtVT.lBv6/Phc/v1eWFgXBTP1Q.ZXoAl6CJdB8J8dTLeTrVi, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:26:02, 2023-06-13 11:26:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$1s4O.WKzLl.319iaP8AQbezFSTR2.x6mKK5rFp54gmE/bzmpWCHNG, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:27:02, 2023-06-13 11:27:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+Start
+Download users...
+Importing...
+null
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `username`, `phone`, `website`, `updated_at`, `created_at`) values (Leanne Graham, Sincere@april.biz, $2y$10$Ge5PN7bNQfu/A6RBH7U8wOC5K5zyAFtVKkgYhLPN0ScOp6dAWUoqy, Bret, 1-770-736-8031 x56442, hildegard.org, 2023-06-13 11:28:02, 2023-06-13 11:28:02))
+
+  at C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  1   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOException::("SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sincere@april.biz' for key 'users_email_unique'")
+
+  2   C:\OpenServer\domains\laravel.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:501
+      PDOStatement::execute()
+^CStart
+Download users...
+Importing...
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+Start
+Download users...
+Importing...
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+Start
+Download users...
+Importing...
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+Start
+Download users...
+Importing...
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+Start
+Download users...
+Importing...
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+Start
+Download users...
+Importing...
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+null
+Users are imported 
+Start
+Download users...
+Importing...
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Start
+Download users...
+Importing...
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Start
+Download users...
+Importing...
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 
+Users are imported 

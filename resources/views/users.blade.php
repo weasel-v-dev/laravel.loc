@@ -113,7 +113,6 @@
             <div>
                 {{$users->links()}}
                 @if(count($users))<p>Password: "<b>Zxcvbnm1</b>" for everyone</p>@endif
-                <p>Updating every 1 minute</p>
             </div>
         </div>
     </div>

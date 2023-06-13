@@ -35,6 +35,15 @@ return [
 
     'connections' => [
 
+        'testing' => [
+            'driver' => env('DB_TEST_CONNECTION', 'mysql'),
+            'host' => env('DB_TEST_HOST', '127.0.0.1'),
+            'port' => env('DB_TEST_PORT', '3306'),
+            'database' => env('DB_TEST_DATABASE', 'test_laravel'),
+            'username' => env('DB_TEST_USERNAME', 'root'),
+            'password' => env('DB_TEST_PASSWORD', 'root'),
+        ],
+
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
