@@ -15,7 +15,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-         $schedule->command('importUsers:everyMinutes')->everyMinute()->appendOutputTo('scheduler.log');
+         $schedule->command('importUsers:everyMinutes')->everyMinute()->appendOutputTo('storage/logs/scheduler.log');
     }
 
     /**
