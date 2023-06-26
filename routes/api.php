@@ -19,16 +19,23 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-//Route::group([
-//
-//    'middleware' => 'api',
-//    'prefix' => 'auth'
-//
-//], function ($router) {
-//
-//    Route::post('login', 'AuthController@login');
-//    Route::post('logout', 'AuthController@logout');
-//    Route::post('refresh', 'AuthController@refresh');
-//    Route::post('me', 'AuthController@me');
-//
-//});
+Route::group([
+
+    'middleware' => 'api',
+    'prefix' => 'auth',
+    'auth' => 'api'
+
+], function ($router) {
+
+    Route::post('login', [App\Http\Controllers\AuthController::class, 'login'])->middleware('auth:api');
+    Route::post('logout', [App\Http\Controllers\AuthController::class, 'logout'])->middleware('auth:api');
+    Route::post('refresh', [App\Http\Controllers\AuthController::class, 'refresh'])->middleware('auth:api');
+    Route::post('me', [App\Http\Controllers\AuthController::class, 'me'])->middleware('auth:api');
+
+
+
+});
+
+Route::group(['namespace' => 'User', 'middleware' => 'jwt.auth'], function () {
+    Route::get('/users', [App\Http\Controllers\UserController::class, 'json']);
+});
